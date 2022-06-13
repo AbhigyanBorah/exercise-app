@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-const ExerciseDetail = () => {
+const ExerciseDetail = () =>
+{
   return (
     <div>ExerciseDetail</div>
-  )
-}
+  );
+};
 
-export default ExerciseDetail
+export default ExerciseDetail;
