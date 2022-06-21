@@ -5,6 +5,8 @@ import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
 import RightArrowIcon from '../assets/icons/right-arrow.png';
 import LeftArrowIcon from '../assets/icons/left-arrow.png';
 
+import './hideScrollBar.css';
+
 const LeftArrow = () =>
 {
     const { scrollPrev } = useContext( VisibilityContext );
